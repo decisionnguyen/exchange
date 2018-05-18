@@ -1,0 +1,7 @@
+{
+  "user": "postgres",
+  "host": "54.251.162.171",
+  "database": "geniota",
+  "password": "thanh123",
+  "port": 5432
+}

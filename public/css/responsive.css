@@ -1,0 +1,449 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .single-block p {
+        width: 100%;
+    }
+    .invest-left-text {
+        margin-top: 80px;
+    }
+    .block-two .single-block p {
+        width: 100%;
+    }
+    .footer-inner p {
+        font-size: 13px;
+    }
+    .footer-copyright {
+        padding: 18px 0px;
+    }
+    .modal-open .menu-area {
+        margin-left: -8.5px !important;
+    }
+    .currency-box h5 {
+        width: 68%;
+    }
+    .menu-area.tranding nav {
+        width: 54%;
+    }
+    .currency-rate ul li {
+        padding: 0px 10px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .currency-box h2::after {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .sell.currency-box h2::after {
+        line-height: 27px;
+    }
+    .currency-box h2 {
+        font-size: 30px
+    }
+    .currency-box h3 {
+        font-size: 25px;
+    }
+    .currency-box h4 {
+        font-size: 20px;
+    }
+    .currency-table-area.wallet .currency-table th p {
+        font-size: 12px;
+        width: 52%;
+        padding-left: 8px;
+        padding-top: 2px;
+    }
+
+    .currency-table-area.wallet .currency-table th {
+        font-size: 14px;
+    }
+
+    .currency-table-area.wallet .currency-table .thead-light th {
+        font-size: 10px;
+    }
+    .currency-table-area.wallet .currency-table .thead-light th {
+    font-size: 11px;
+    padding-right: 8px;
+}
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-area .navbar-nav > li > a {
+        padding: 15px 12px;
+        font-size: 15px
+    }
+    .menu-area .navbar-nav > li.signup {
+        margin-left: 20px;
+    }
+    .welcome-slider-area .owl-dots {
+        position: absolute;
+        top: auto;
+        left: 50%;
+        bottom: 20px;
+        z-index: 999;
+        cursor: pointer;
+        height: auto !important;
+        margin-left: -50px;
+    }
+    .welcome-slider-area .owl-dots div {
+        width: 10px;
+        height: 10px;
+        background: #96C247;
+        display: inline-block;
+        margin: 0px 10px;
+        border-radius: 50px;
+        cursor: pointer !important;
+    }
+    .single-block {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .block-area.section-padding {
+        padding: 70px 0px;
+    }
+    .invest-left-text {
+        margin-top: 0px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .footer-one {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-inner p {
+        max-width: 416px;
+        margin: 15px auto 3px;
+    }
+    .modal-open .menu-area {
+        margin-left: -8.5px !important;
+    }
+
+
+
+    .header-top-area {
+        text-align: center;
+    }
+    .header-top-area a {
+        display: block;
+        margin: 15px 0px;
+    }
+    .menu-area.tranding nav {
+        width: 54%;
+    }
+    .currency-left {
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    .currency-rate ul li {
+        padding: 0px 73px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .buy.currency-box {
+        margin-bottom: 30px;
+    }
+    .table-left.currency-table {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .table-left.currency-table:last-child {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .currency-table-area.wallet .currency-table th p {
+        font-size: 10px;
+        width: 100%;
+        float: left;
+        display: block;
+        padding-top: 5px;
+    }
+    .currency-table-area.wallet .currency-table th input {
+        width: 70%;
+    }
+
+    .currency-table-area.wallet .currency-table th {
+        font-size: 10px;
+        ;
+        padding: 10px;
+    }
+    .currency-table-area.wallet .currency-table table tr td {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+
+    .currency-table-area.wallet .currency-table .thead-light th {
+        font-size:8px;
+    }
+
+.currency-table-area.wallet .currency-table .thead-light th{
+    font-size: 11px;
+    padding-right: 8px;
+}
+
+
+
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+    .modal-open .menu-area {
+        margin-left: 0px !important;
+    }
+    .navbar-toggle {
+        margin-top: 25px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #96C247;
+        background-color: #96C247;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #96C247;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #96C247;
+        margin-top: 10px;
+        background-color: rgba(0, 0, 0, .9);
+    }
+    .menu-area .navbar-nav > li.signup::after {
+        display: none;
+    }
+    .menu-area .navbar-nav > li.signup {
+        margin-left: 0px;
+    }
+    .menu-area .navbar-nav > li.signup,
+    .menu-area .navbar-nav > li.login {
+        background-color: transparent;
+        padding: 0px;
+    }
+    .menu-area {
+        position: inherit;
+        margin-bottom: 11px;
+    }
+    .service-slide-text-cell h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 38px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .welcome-slider-area {
+        height: 470px;
+    }
+    .service-slide-text-cell p {
+        font-size: 14px;
+        margin-bottom: 13px;
+        margin-top: 0px;
+    }
+    .slider-form input {
+        width: 80%;
+        margin: 10px 0px;
+    }
+    .welcome-slider-area .owl-dots {
+        position: absolute;
+        top: auto;
+        left: 50%;
+        bottom: 20px;
+        z-index: 999;
+        cursor: pointer;
+        height: auto !important;
+        margin-left: -50px;
+    }
+    .welcome-slider-area .owl-dots div {
+        width: 10px;
+        height: 10px;
+        background: #96C247;
+        display: inline-block;
+        margin: 0px 10px;
+        border-radius: 50px;
+        cursor: pointer !important;
+    }
+
+    .btn {
+        font-size: 13px;
+        margin-top: 23px;
+        padding: 10px 18px;
+        margin-left: 5px;
+        width: 135px;
+    }
+    .single-block {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .block-area.section-padding {
+        padding: 70px 0px;
+    }
+    .invest-left-text {
+        margin-top: 0px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .cta-inner h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .footer-one {
+        margin-bottom: 30px;
+    }
+    .footer-two {
+        margin-bottom: 30px;
+    }
+    .footer-two.mobile-padding {
+        margin-bottom: 0px;
+    }
+    .footer-copyright {
+        padding: 10px 0px;
+    }
+    #scroll-top {
+        bottom: 50px;
+    }
+
+
+    .tranding-blance,
+    .icon {
+        display: none;
+    }
+
+    .menu-area.tranding nav {
+        width: 100%;
+    }
+    .menu-area.tranding nav li a {
+        color: #fff;
+    }
+    .menu-area.tranding .navbar-toggle {
+        position: absolute;
+        right: 0px;
+        top: -75px;
+    }
+
+    .currency-left h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .menu-area.tranding {
+        background: #F9F9F9;
+        box-shadow: 0px 0px 0px;
+    }
+    .currency-rate {
+        padding: 0px 0px 0px;
+    }
+    .currency-rate ul {
+        text-align: center;
+    }
+    .currency-rate ul li {
+        text-align: ;
+    }
+    .currency-nav li {
+        padding: 4px 17px;
+        margin-bottom: 13px;
+    }
+    .currency-box h5 {
+        width: 100%;
+    }
+    .currency-table .thead-light th {
+        font-size: 16px;
+    }
+    .currency-table-area.wallet {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .currency-table-area.wallet .currency-table th p {
+        font-size: 10px;
+        width: 100%;
+        float: left;
+        display: block;
+        padding-top: 5px;
+    }
+    .currency-table-area.wallet .currency-table th input {
+        width: 70%;
+    }
+    .icon-image {
+        display: none;
+    }
+    .currency-table-area.wallet .currency-table th {
+        font-size: 10px;
+        ;
+        padding: 10px;
+    }
+    .currency-table-area.wallet .currency-table table tr td {
+        padding: 10px;
+        font-size: 10px;
+    }
+.currency-table-area.wallet .currency-table .thead-light th{
+    font-size: 11px;
+    padding-right: 8px;
+}
+
+.single-box {
+    width: 100%;
+}
+.currency-box h5 span {
+    font-size: 11px;
+}
+.currency-box h3 {
+    font-size: 20px;
+}
+.currency-box h2 {
+    font-size: 27px;
+}
+.currency-box h2::after {
+    width: 30px;
+    height: 30px;
+    content: '+';
+    line-height: 29px;
+}
+.sell.currency-box h2::after {
+    line-height: 25px;
+}
+.wallet .modal-dialog p {
+    font-size: 14px;
+}
+.wallet .modal-dialog .button{
+    text-align: center;
+}
+.single-input{
+    width: 100%;
+}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .service-slide-text-cell h1 {
+        font-size: 34px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 38px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .welcome-slider-area {
+        height: 470px;
+    }
+    .service-slide-text-cell p {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,51 @@
+/*---- Base CSS -----*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 30px;
+    overflow-x: hidden
+}
+.img-logo {
+	margin-top: 50px;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	background: #C8C8C8;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.blue {
+	font-size: 16px;
+	font-weight: bold;
+	color: #96C247;
+}
+.text-content {
+	font-size: 14px;
+}
+.btn-submit {
+	display: block;
+	width: 400px;
+	height: 40px;
+	background: #96C247;
+	color: white;
+	border:none;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	line-height: 40px;
+}
+.text-foot {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom: 30px;
+}
