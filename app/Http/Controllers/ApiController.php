@@ -339,15 +339,6 @@ class ApiController extends Controller
             $arr[$market_name][$index]['hrLow'] = (float)$dataMarket->low;
 
             $last24hFormat = date ('Y-m-d H:i:s' ,time() - 86400);
-
-            $priceOld = MarketTradeHistories::where('market_id',$value['id'])->where('created_at','>=',$last24hFormat)->limit(1)->first();
-
-            if(empty($priceOld)) {
-                $arr[$market_name][$index]['priceOld'] = 0;
-            } else {
-                $arr[$market_name][$index]['priceOld'] = (float)$priceOld->price;
-            }
-
         }
 
         $result = [];

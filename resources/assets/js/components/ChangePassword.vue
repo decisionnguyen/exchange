@@ -9,7 +9,7 @@
                 <div class="col-md-9">
                     <center>
                         <form action="/user/changePassword" method="POST" style="margin-top:50px;">
-                            <input type="hidden" v-bind:value="csrf_token">
+                            <input type="hidden" name="_token" v-bind:value="csrf_token">
                             <input class="input-signup" type="password" name="old_password" placeholder="Old Password">
                             <input class="input-signup" type="password" name="new_password" placeholder="New password">
                             <input class="input-signup" type="password" name="retype_password" placeholder="Confirm new password">

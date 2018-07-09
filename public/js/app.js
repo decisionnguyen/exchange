@@ -50508,58 +50508,51 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 $(".socket-status").find('.content').html('Socket Disconnected');
                 this.socket_status = 0;
             }
-        },
-        "new-all-market-trade-history": function newAllMarketTradeHistory(data) {
+        }
+        /*
+        "new-all-market-trade-history" : function (data) {
             var arr = data.message;
             var _this = this;
             var index = _this.marketIndex[arr.market_id];
             var market_symbol = arr.market_symbol;
-
-            if (!_this.markets || _this.markets.length == 0) return;
-
-            if (arr.price != _this.markets[market_symbol][index].lastPrice) {
+             if(!_this.markets || _this.markets.length == 0) return;
+             if(arr.price != _this.markets[market_symbol][index].lastPrice) {
                 _this.markets[market_symbol][index].lastPrice = arr.price;
             }
-
-            _this.markets[market_symbol][index].hoursVol += parseFloat(arr.total);
-
-            if (_this.markets[market_symbol][index].hrHigh < arr.price) _this.markets[market_symbol][index].hrHigh = parseFloat(arr.price);
-            if (_this.markets[market_symbol][index].hrLow > arr.price) _this.markets[market_symbol][index].hrLow = parseFloat(arr.price);
-
-            var priceOld = _this.markets[market_symbol][index].priceOld;
-            var changePercent = (arr.price - priceOld) / priceOld * 100;
+             _this.markets[market_symbol][index].hoursVol += parseFloat(arr.total);
+             if(_this.markets[market_symbol][index].hrHigh < arr.price) _this.markets[market_symbol][index].hrHigh = parseFloat(arr.price);
+            if(_this.markets[market_symbol][index].hrLow > arr.price) _this.markets[market_symbol][index].hrLow = parseFloat(arr.price);
+             var priceOld = _this.markets[market_symbol][index].priceOld;
+            var changePercent = ((arr.price - priceOld) / priceOld) * 100;
             var changePercentOld = _this.markets[market_symbol][index].change;
-
-            if (changePercent != _this.markets[market_symbol][index].change) {
+             if(changePercent != _this.markets[market_symbol][index].change) {
                 _this.markets[market_symbol][index].change = changePercent;
-
-                var element = $(".change-" + arr.market_id);
-
-                if (changePercent > 0) {
-                    if (!element.hasClass('green')) {
+                 var element = $(".change-" + arr.market_id);
+                 if(changePercent > 0) {
+                    if(!element.hasClass('green')) {
                         element.removeClass('red');
                         element.addClass('green');
                     }
                 } else {
-                    if (!element.hasClass('red')) {
+                    if(!element.hasClass('red')) {
                         element.removeClass('green');
                         element.addClass('red');
                     }
                 }
-
-                if (changePercent > changePercentOld) {
+                 if(changePercent > changePercentOld) {
                     element.addClass('up');
                     setTimeout(function () {
                         element.removeClass('up');
-                    }, 1000);
+                    },1000);
                 } else {
                     element.addClass('down');
                     setTimeout(function () {
                         element.removeClass('down');
-                    }, 1000);
+                    },1000);
                 }
-            }
-        }
+             }
+        },
+        */
     },
     mounted: function mounted() {
         if (this.table_height) this.tableHeight = this.table_height;
@@ -57910,7 +57903,7 @@ var render = function() {
                   },
                   [
                     _c("input", {
-                      attrs: { type: "hidden" },
+                      attrs: { type: "hidden", name: "_token" },
                       domProps: { value: _vm.csrf_token }
                     }),
                     _vm._v(" "),

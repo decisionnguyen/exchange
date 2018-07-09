@@ -70,6 +70,7 @@
                     this.socket_status = 0;
                 }
             },
+            /*
             "new-all-market-trade-history" : function (data) {
                 var arr = data.message;
                 var _this = this;
@@ -122,6 +123,7 @@
 
                 }
             },
+            */
         },
         mounted () {
             if(this.table_height) this.tableHeight = this.table_height;

@@ -220,15 +220,15 @@ class UserController extends Controller
 
 
         $client = new Client();
-        $res = $client->request('GET', 'https://freegeoip.net/json/' . $IP);
+        $res = $client->request('GET', 'http://ip-api.com/json/' . $IP);
 
         $data = json_decode($res->getBody());
      
         $lastLogin = new LastLogin;
         $lastLogin->user_id = $user->id;
-        $lastLogin->ip = $data->ip;
-        $lastLogin->country_code = $data->country_code;
-        $lastLogin->region = $data->country_name . '/' . $data->region_name;
+        $lastLogin->ip = $IP;
+        $lastLogin->country_code = $data->countryCode;
+        $lastLogin->region = $data->country . '/' . $data->city;
         $lastLogin->save();
 
    		Session::put('user', $user);
